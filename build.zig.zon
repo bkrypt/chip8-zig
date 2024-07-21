@@ -1,0 +1,13 @@
+.{
+    .name = "zig-emu-chip8",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zsdl = .{ .path = "libs/zsdl" },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "libs",
+        "src",
+    },
+}
